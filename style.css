@@ -1,1 +1,20 @@
+.cabeçalho{
+    display: inline-block; /*organiza o texto em linha flexivel*/
+}
+.mostarda {
+    background-color:#B7730E;
+    width: 720px;
+    height: 297px;
+    display: flex;
+    justify-content: center;
+}
 
+.mostarda-imagem{
+    width: 233px;
+    height: 229px;
+    padding: 34px; 
+}
+
+.cinza{
+    font-family: 'Inconsolata', monospace;
+}
