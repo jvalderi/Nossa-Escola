@@ -20,3 +20,10 @@
     font-weight: 700;
     font-size: 64px;
 }
+
+.cinza-texto{
+    display: inline-block;
+    align-items: center;
+    margin: 77px;
+    text-align: center;
+}
