@@ -16,7 +16,7 @@
 }
 
 .cinza{
-    background-color:#B0AFAF;
+    display: inline-block;
     font-family: 'Inconsolata', monospace;
     font-weight: 700;
     font-size: 64px;
