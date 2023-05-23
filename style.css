@@ -1,9 +1,10 @@
 .cabeçalho{
-    display: inline-block; /*organiza o texto em linha flexivel*/
+    display: inline-flex; /*organiza o texto em linha flexivel*/
+    width: 100%;
 }
 .mostarda {
     background-color:#B7730E;
-    width: 720px;
+    width: 50%;
     height: 297px;
     display: flex;
     justify-content: center;
@@ -17,12 +18,17 @@
 
 .cinza{
     background-color: #B0AFAF;
+    width: 50%;
+    height: 297px;
+    display:flex;
+    justify-content: center;
     font-family: 'Inconsolata', monospace;
     font-weight: 700;
     font-size: 64px;
 }
 
 .cinza-texto{
+    font-size: 80%;
     display: inline-block;
     align-items: center;
     margin: 77px;
