@@ -45,13 +45,14 @@
 }
 
 .texto{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif; ;
     font-weight: 400;
     font-size: 40px;
     text-align: justify;
-    margin: 35px;
+    margin: 0 0 0 215px;
     width: 1362px;
     height: 240px;
+    padding-bottom: 50px;
 }
 
 .estrutura {
@@ -59,9 +60,10 @@
     grid-template-columns: 675px 675px;/*define o tamanho das colunas*/
     row-gap: 90px; /*lacuna horizontal entre elementos*/
     column-gap: 35px; /*lacuna vertical entre os elementos*/
-    margin: 28px;
+    margin: 32px 0px 0px 211px;
     padding-bottom: 27px;/*borda de baixo*/
 }
+
 
 .fachada {
     font-family: 'Inter', sans-serif;
