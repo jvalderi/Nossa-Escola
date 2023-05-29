@@ -53,3 +53,12 @@
     width: 1362px;
     height: 240px;
 }
+
+.estrutura {
+    display: grid; /*organiza os elementos em grades*/
+    grid-template-columns: 675px 675px;/*define o tamanho das colunas*/
+    row-gap: 90px; /*lacuna horizontal entre elementos*/
+    column-gap: 35px; /*lacuna vertical entre os elementos*/
+    margin: 28px;
+    padding-bottom: 27px;/*borda de baixo*/
+}
