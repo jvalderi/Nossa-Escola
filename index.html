@@ -1,72 +1,66 @@
-.cabeçalho{
-    display: inline-flex; /*organiza o texto em linha flexivel*/
-    width: 100%;
-}
-.mostarda {
-    background-color:#B7730E;
-    width: 50%;
-    height: 297px;
-    display: flex;
-    justify-content: center;
-}
-
-.mostarda-imagem{
-    width: 233px;
-    height: 229px;
-    padding: 34px; 
-}
-
-.cinza{
-    background-color: #B0AFAF;
-    width: 50%;
-    height: 297px;
-    display:flex;
-    justify-content: center;
-    font-family: 'Inconsolata', monospace;
-    font-weight: 700;
-    font-size: 64px;
-}
-
-.cinza-texto{
-    font-size: 85%;
-    display: inline-block;
-    align-items: center;
-    margin: 77px;
-    text-align: center;
-}
-
-.titulo{
-    font-family: 'Inter', sans-serif;
-    font-weight: 900;
-    font-size: 91px;
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-}
-
-
-.texto{
-    font-family: 'Inter', sans-serif; ;
-    font-weight: 400;
-    font-size: 40px;
-    text-align: justify;
-    margin: 0 0 0 215px;
-    width: 1362px;
-    height: 240px;
-    padding-bottom: 50px;
-}
-
-.estrutura {
-    display: grid; /*organiza os elementos em grades*/
-    grid-template-columns: 675px 675px;/*define o tamanho das colunas*/
-    row-gap: 90px; /*lacuna horizontal entre elementos*/
-    column-gap: 35px; /*lacuna vertical entre os elementos*/
-    margin: 32px 0px 0px 211px;
-    padding-bottom: 27px;/*borda de baixo*/
-}
-
-.fachada {
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 34px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossa escola</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <header class="cabeçalho">
+        <div class="mostarda">
+            <img class="mostarda-imagem" src="image 5.png" alt="logo colégio">
+        </div>
+        <div class="cinza">
+            <h2 class="cinza-texto">Colégio Estatual Sapopema</h2>
+            <img src="" alt="">
+        </div>
+    </header>
+    <section class="titulo">
+        <h1>NOSSA ESCOLA</h1>
+    </section>
+    <section class="texto">
+        <p>O Colégio Estadual Sapopema, dedica-se ao desenvolvimento
+             educacional de seus alunos, atendendo turmas do Fundamental II
+              (6º ano ao 7º ano), Ensino Médio (1º série à 3º séria), EJA (Fundamental e Médio)
+               e Curso Técnico em Guia de Turismo. Possui em sua estrutura  salas de aula, refeitório,
+                biblioteca, pátio descoberto, quadra esportiva, sala dos professores, sala dos pedagogos, 
+                sala da direção, laboratório de Química/Biologia e banheiros.</p>
+    </section>
+    <div class="estrutura">
+        <section class="fachada">
+            <img class="fachada-imagem-img" src="image 6.png">
+            <p class="fachada-texto">fachada</p>
+        </section>
+        <section class="Química/Biologia">
+            <img class="Química/Biologia-img" src="image 7.png">
+            <p class="Química/Biologia-texto">Laboratório de Química/Biologia</p>
+        </section>
+        <section class="Esportiva">
+            <img class="Esportiva-img" src="image 8.png">
+            <p class="Esportiva-texto">Quadra Esportiva</p>
+        </section>
+        <section class="Pátio">
+            <img class="Pátio-img" src="image 9.png">
+            <p class="Pátio-texto">Pátio descoberto</p>
+        </section>
+      </div>
+      <footer class="rodapé">
+        <section class="link">
+            <a href="https://www.instagram.com/maite_sasdelli/">conheça mais da nossa escola</a>
+        </section>
+        <section>
+            <img src="image 2.png" alt="icone-mapa">
+            <img src="image 3.png" alt="icone-telefone">
+            <img src="image 4.png" alt="icone-email">
+        </section>
+        <section>
+            <p>Endereço: RUA TANCREDO NEVES, 112, CENTRO, Sapopema-PR, 84290000, Brasil </p>
+            <p>Telefone: (43) 3548-1307</p>
+            <p>Email: spesapopema@seed.pr.gov.br</p>
+        </section>
+      </footer>
+</body>
+</html>
