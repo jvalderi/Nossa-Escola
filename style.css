@@ -95,3 +95,21 @@
     font-size: 34px;
     text-align: center; 
 }
+
+.rodapé {
+    background-color: black;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 230px 34px 1900px;
+    padding: 20px;
+}
+
+.link {
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 35px;
+}
+
