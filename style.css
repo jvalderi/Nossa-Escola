@@ -45,71 +45,66 @@
 }
 
 .texto{
-    font-family: 'Inter', sans-serif; ;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 34px;
     text-align: justify;
     width: 100%;
     height: 240px;
-    padding-bottom: 50px;
 }
 
-.estrutura img {
-    width: 125%;
+.texto p {
+    padding: 0 26px;
 }
 
 .estrutura {
+    padding: 0 31px;
+    /* width: 100%; */
     display: grid; /*organiza os elementos em grades*/
-    grid-template-columns: 675px 675px;/*define o tamanho das colunas*/
-    row-gap: 90px; /*lacuna horizontal entre elementos*/
-    column-gap: 191px; /*lacuna vertical entre os elementos*/
-    margin: 10px 0px 0px 82px;
-    padding-bottom: 27px;/*borda de baixo*/
+    grid-template-columns: 46% 46%;/*define o tamanho das colunas*/
+    row-gap: 78px; /*lacuna horizontal entre elementos*/
+    column-gap: 99px; /*lacuna vertical entre os elementos*/
+    padding-bottom: 29px;/*borda de baixo*/
+}
+
+.estrutura img {
+    width: 100%;
 }
 
 
-.fachada {
+.fachada, .Laboratório, .Esportiva, .Pátio{
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 34px;
     text-align: center;
-}
-
-.Laboratório {
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 34px;
-    text-align: center;
-}
-
-.Esportiva {
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 34px;
-    text-align: center;
-}
-
-.Pátio {
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 34px;
-    text-align: center; 
 }
 
 .rodapé {
     background-color: black;
     width: 100%;
     display: grid;
-    grid-template-columns: 230px 34px 1900px;
-    padding: 20px;
+    grid-template-columns: 210px 35px 1104px;
 }
 
-.link {
-    color: #ffffff;
-    font-family: 'Inter', sans-serif;
-    font-weight: 900;
-    font-size: 35px;
-    text-align: center;
-    padding-top: 35px;
+.telefone, .endereço, .email{
+    color: #B7730E;
+    padding: 8px 0;
 }
 
+.link{
+     color: #ffffff;
+     font-family: 'Inter', sans-serif;
+     font-weight: 900;
+     font-size: 24px;
+     text-align: center;
+     padding-top: 14px;
+}
+
+.link a {
+    color: white;
+}
+
+.icones img {
+    width: 68%;
+    padding-top: 5px;
+}
